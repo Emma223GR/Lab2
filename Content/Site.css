@@ -13,7 +13,7 @@
 .input-validation-error
 {
     border: 1px solid #ff0000;
-    background-color: #ffeeee;
+    background-color:Black;
 }
 
 .validation-summary-errors
@@ -25,4 +25,14 @@
 .validation-summary-valid
 {
     display: none;
+}
+
+fieldset label 
+{
+    display: block     
+}
+
+fieldset input
+{ display:block;
+  margin-bottom : 5px;
 }
